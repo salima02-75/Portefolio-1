@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media(max-width: 570px){
+
+body{
+    text-align: center;
+}
+
+ header{
+     padding-bottom: 100px;
+ }
+
+ main{
+     text-align: center;
+ }
+
+ footer{
+     background-color: #07043b;
+     padding: 30px;
+     
+ }
+
+.partie_fin_main{
+    background-color: #575989;
+    color: white;
+    padding: 50px;
+}
+.partie_fin_main h3{
+    color: white;
+   
+}
+
+.partie_un{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.partie_un a {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+
+.img_un_deux{
+    width: 560px;
+    padding-bottom: 50px;
+}
+
+h2{
+    padding-bottom: 30px;
+}
+
+p{
+    padding-bottom: 30px;
+}
+
+.bouton {
+    width: 225px;
+    padding: 10px;
+    margin-top: 15px;
+    background-color:#2f65f9; 
+    color: white;
+}
+
+.bouton_mail{
+    width: 200px;
+    padding: 10px;
+   color: gray;
+}
+h3{
+    margin: 15px;
+    color: rgb(69, 3, 145);
+}
+.p_gray{
+    color: gray;
+}
+
+.fylo_work{
+    color :#2f65f9;
+ 
+    
+}
+.article{
+    box-shadow: gray 0px 0px 15px 1px;
+    width: 400px;
+    /* text-align: center; */
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    margin-bottom: 70px;
+
+}
+.avatar{
+    border-radius: 65px;
+    width: 50px;
+    padding: 10px;
+}
+
+.bloc_avatar{
+    display: flex;
+}
+.adress_avatar{
+    text-align: justify;
+    padding-top: 10px;
+}
+.img_quote{
+    text-align: justify;
+}
+
+.bouton_fin_main{
+    width: 225px;
+    padding: 10px;
+    margin-top: 15px;
+    background-color:#2f65f9; 
+    color: white;
+    border: none;
+}
+
+.bouton_mail_fin_main{
+    width: 200px;
+    padding: 10px;
+   color: gray;
+}
+
+.contact{
+    display: flex;
+    color: white;
+   
+}
+
+.contact img{
+    height: 20px;
+    padding-right: 20px;
+}
+
+.contact_parent{
+    padding-top: 30px;
+}
+
+.info a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+    padding-top: 30px;
+}
+.icone_insta{
+    border: 2px solid white;
+border-radius: 97px;
+width: 28px;
+    }
+
+.icone{
+    width: 35px;
+}
+}
+
+@media(min-width:1000px){
+    .partie_deux{
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+    .partie_trois{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    body{
+        text-align: center;
+        margin: auto;
+    }
+    footer{
+        background-color: #07043b;
+        padding: 30px;
+        
+    }
+    
+     header{
+         padding-bottom: 100px;
+     }
+.partie_un{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    .input_bouton{
+        padding: 15px;
+        background-color: #2f65f9;
+        color: white;
+        border: none;
+    }
+
+    .les_input{
+        display: flex  ;
+        height: 30px;
+        text-align: center;
+    }
+    
+.partie_fin_main{
+    background-color: #575989;
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.partie_fin_main h3{
+    color: white;
+   
+}
+
+.partie_un{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.partie_un a {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+
+.img_un_deux{
+    width: 560px;
+    padding-bottom: 50px;
+}
+
+h2{
+    padding-bottom: 30px;
+}
+
+p{
+    padding-bottom: 30px;
+}
+
+.bouton {
+    width: 225px;
+    padding: 10px;
+    margin-top: 15px;
+    background-color:#2f65f9; 
+    color: white;
+}
+
+.bouton_mail{
+    width: 200px;
+    padding: 10px;
+   color: gray;
+}
+h3{
+    margin: 15px;
+    color: rgb(69, 3, 145);
+}
+.p_gray{
+    color: gray;
+}
+
+.fylo_work{
+    color :#2f65f9;
+ 
+    
+}
+.article{
+    box-shadow: gray 0px 0px 15px 1px;
+    width: 400px;
+    /* text-align: center; */
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    margin-bottom: 70px;
+
+}
+.avatar{
+    border-radius: 65px;
+    width: 50px;
+    padding: 10px;
+}
+
+.bloc_avatar{
+    display: flex;
+}
+.adress_avatar{
+    text-align: justify;
+    padding-top: 10px;
+}
+.img_quote{
+    text-align: justify;
+}
+
+.bouton_fin_main{
+    width: 225px;
+    padding: 10px;
+    margin-top: 15px;
+    background-color:#2f65f9; 
+    color: white;
+    border: none;
+}
+
+.bouton_mail_fin_main{
+    width: 200px;
+    padding: 10px;
+   color: gray;
+}
+
+.contact{
+    display: flex;
+    color: white;
+   
+}
+
+.contact img{
+    height: 20px;
+    padding-right: 20px;
+}
+
+.contact_parent{
+    padding-top: 30px;
+}
+
+.info a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+    padding-top: 30px;
+}
+.icone_insta{
+    border: 2px solid white;
+border-radius: 97px;
+width: 28px;
+    }
+
+.icone{
+    width: 35px;
+}
+.bloc_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+}
